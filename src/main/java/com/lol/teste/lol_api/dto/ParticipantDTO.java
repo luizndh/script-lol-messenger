@@ -1,5 +1,8 @@
-package com.lol.teste.DTO;
+package com.lol.teste.lol_api.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public record ParticipantDTO(int assists, int baronKills, int bountyLevel, int champExperience, int champLevel, int championId,
                              String championName, int championTransform, int consumablesPurchased, int damageDealtToBuildings,
                              int damageDealtToObjectives, int damageDealtToTurrets, int damageSelfMitigated, int deaths,
@@ -17,5 +20,6 @@ public record ParticipantDTO(int assists, int baronKills, int bountyLevel, int c
                              int timePlayed, int totalDamageDealt, int totalDamageDealtToChampions, int totalDamageShieldedOnTeammates, int totalDamageTaken, int totalHealm,
                              int totalHealsOnTeammates, int totalMinionsKilled, int totalTimeCCDealt, int totalTimeSpentDead, int totalUnitsHealed, int tripleKills,
                              int trueDamageDealt, int trueDamageDealtToChampions, int trueDamageTaken, int turretKills, int turretTakedowns, int turretsLost,
-                             int unrealKills, int visionScore, int visionWardsBoughtInGame, int wardsKilled, int wardsPlaced, boolean win) {
+                             int unrealKills, int visionScore, int visionWardsBoughtInGame, int wardsKilled, int wardsPlaced, boolean win, int allInPings, int assistMePings,
+                             int baitPings, int basicPings) {
 }
