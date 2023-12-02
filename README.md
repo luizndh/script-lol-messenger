@@ -8,5 +8,4 @@ recuperar essa e várias outras informações. Por fim, utilizando a API do disc
 ganhado/perdido uma partida nos últimos 60 segundos.
 
 ### Tecnologias 
-Java 17 com Spring Boot 3.1.5
-API's do Discord e da Riot
+Java 17 com Spring Boot 3.1.5, API's do Discord e da Riot
